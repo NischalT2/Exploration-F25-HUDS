@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/mehardeepsingh/Exploration-F25-HUDS/app/styles.css"],"sourcesContent":[".login-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 40px;\n  }\n  \n  .login-title {\n    font-weight: bold;\n    font-size: 28px;\n    margin-bottom: 20px;\n  }\n  \n  .login-btn {\n    margin-top: 10px;\n    padding: 8px 16px;\n    font-size: 16px;\n    cursor: pointer;\n  }  \n\n  .textbox {\n    color: #000;\n    background-color: #fff;\n  }"],"names":[],"mappings":"AAAA;;;;;;;AAOE;;;;;;AAMA;;;;;;;AAOA","debugId":null}}]
+}
