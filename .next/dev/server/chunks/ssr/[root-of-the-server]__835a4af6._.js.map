@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/mehardeepsingh/Exploration-F25-HUDS/app/page.tsx"],"sourcesContent":["import {redirect}  from \"next/navigation\";\nimport Image from \"next/image\";\n\nexport default function Home() {\n  redirect(\"/signup\");\n}\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAGe,SAAS;IACtB,IAAA,+NAAQ,EAAC;AACX","debugId":null}}]
+}
