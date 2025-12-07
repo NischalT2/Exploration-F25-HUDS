@@ -22,8 +22,45 @@ export default function Signup() {
                 <option>2029</option>
             </select>
 
-            <p>House:</p>
-            <input type="text" className="textbox" name="house" required />
+            <p>House/Dorm:</p>
+            <select className="textbox" name="house" required>
+                <option value="">Select a House or Dorm</option>
+                {/* Upperclassman Houses */}
+                <option disabled>--- Upperclassman Houses ---</option>
+                <option>Adams</option>
+                <option>Cabot</option>
+                <option>Currier</option>
+                <option>Dunster</option>
+                <option>Eliot</option>
+                <option>Kirkland</option>
+                <option>Leverett</option>
+                <option>Lowell</option>
+                <option>Mather</option>
+                <option>Pforzheimer</option>
+                <option>Quincy</option>
+                <option>Winthrop</option>
+
+                {/* Freshman Dorms */}
+                <option disabled>--- Freshman Dorms ---</option>
+                <option>Apley Court</option>
+                <option>Canaday</option>
+                <option>Grays</option>
+                <option>Greenough</option>
+                <option>Hollis</option>
+                <option>Holworthy</option>
+                <option>Hurlbut</option>
+                <option>Lionel</option>
+                <option>Massachusetts Hall</option>
+                <option>Matthews</option>
+                <option>Mower</option>
+                <option>Pennypacker</option>
+                <option>Stoughton</option>
+                <option>Straus</option>
+                <option>Thayer</option>
+                <option>Weld</option>
+                <option>Wigglesworth</option>
+            </select>
+
 
             <p>Email:</p>
             <input type="email" className="textbox" name="email" required />
