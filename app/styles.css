@@ -47,4 +47,6 @@
   
   .textbox {
     background-color: #d9dddc;
+    max-width: 300px;
+    width: 100%;
   }
