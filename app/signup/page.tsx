@@ -9,7 +9,8 @@ export default function Signup() {
 
         <p className="title">Create Account</p>
 
-        <form action="/dashboard">
+        <form action="/dashboard" method="GET">
+
         {/* form as it allows for better safety and the dropdowns for edge casing*/}
 
             <p>Name:</p>
