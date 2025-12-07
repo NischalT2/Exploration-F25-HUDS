@@ -7,15 +7,17 @@ export default function Signup() {
     <div className="background">
       <div className="container">
 
-        <p className="login-title">Create Account</p>
+        <p className="title">Create Account</p>
 
         <form action="/dashboard">
+        {/* form as it allows for better safety and the dropdowns for edge casing*/}
+
             <p>Name:</p>
             <input type="text" className="textbox" name="name" required />
 
             <p>Graduation Year:</p>
             <select className="textbox" name="year" required>
-                <option value="">Select a year</option>
+                <option value="">Select Graduation Year</option>
                 <option>2026</option>
                 <option>2027</option>
                 <option>2028</option>
@@ -24,7 +26,7 @@ export default function Signup() {
 
             <p>House/Dorm:</p>
             <select className="textbox" name="house" required>
-                <option value="">Select a House or Dorm</option>
+                <option value="">Select House or Dorm</option>
                 {/* Upperclassman Houses */}
                 <option disabled>--- Upperclassman Houses ---</option>
                 <option>Adams</option>
@@ -60,7 +62,6 @@ export default function Signup() {
                 <option>Weld</option>
                 <option>Wigglesworth</option>
             </select>
-
 
             <p>Email:</p>
             <input type="email" className="textbox" name="email" required />

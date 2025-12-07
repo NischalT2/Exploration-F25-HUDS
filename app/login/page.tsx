@@ -7,9 +7,11 @@ export default function Login() {
     <div className="background">
       <div className="container">
 
-        <p className="login-title">HUDS Login</p>
+        <p className="title">HUDS Login</p>
 
         <form action="/dashboard">
+        {/* form as it allows for better safety */}
+        
             <p>Email:</p>
             <input type="email" className="textbox" name="email" required />
 
