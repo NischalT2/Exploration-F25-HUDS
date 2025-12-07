@@ -9,18 +9,19 @@ export default function Login() {
 
         <p className="login-title">HUDS Login</p>
 
-        <p>Username:</p>
-        <input type="text" className="textbox" name="username" required />
+        <form action="/dashboard">
+            <p>Email:</p>
+            <input type="email" className="textbox" name="email" required />
 
-        <p>Password:</p>
-        <input type="password" className="textbox" name="password" required />
+            <p>Password:</p>
+            <input type="password" className="textbox" name="password" required />
 
-        <Link href="/dashboard">
-            <button className="login-btn">Login</button>
-        </Link>
-
+            <p>
+                <button type="submit" className="login-btn">Login</button>
+            </p>
+        </form>
         <Link href="/signup">
-          <button className="manuever-btn">Sign Up?</button>
+            <button className="manuever-btn">Sign Up?</button>
         </Link>
 
       </div>
