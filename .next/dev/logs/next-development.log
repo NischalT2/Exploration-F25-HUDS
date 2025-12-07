@@ -1,33 +1,73 @@
-[00:00:00.849] Server  LOG      ✓ Ready in 627ms
-[00:01:22.379] Server  LOG      ✓ Compiled in 50ms
-[00:01:59.599] Server  LOG      ✓ Compiled in 35ms
-[00:04:16.687] Server  LOG      ✓ Compiled in 64ms
-[00:06:43.701] Server  LOG      ✓ Compiled in 125ms
-[00:06:55.000] Server  LOG      ✓ Compiled in 28ms
-[00:07:09.384] Server  LOG      ✓ Compiled in 14ms
-[00:07:30.436] Server  LOG      ✓ Compiled in 15ms
-[00:07:55.164] Server  LOG      ✓ Compiled in 92ms
-[00:09:23.676] Server  LOG      ✓ Compiled in 86ms
-[00:10:04.523] Server  LOG      ✓ Compiled in 38ms
-[00:11:09.145] Server  LOG      ✓ Compiled in 42ms
-[00:11:28.486] Server  LOG      ✓ Compiled in 85ms
-[00:11:43.985] Server  LOG      ✓ Compiled in 27ms
-[00:11:58.642] Server  LOG      ✓ Compiled in 14ms
-[00:12:16.926] Server  LOG      ✓ Compiled in 30ms
-[00:12:28.486] Server  LOG      ✓ Compiled in 12ms
-[00:13:09.114] Server  LOG      ✓ Compiled in 143ms
-[00:14:57.633] Server  LOG      ✓ Compiled in 40ms
-[00:15:11.765] Server  LOG      ✓ Compiled in 10ms
-[00:15:31.241] Server  LOG      ✓ Compiled in 11ms
-[00:16:00.297] Server  LOG      ✓ Compiled in 101ms
-[00:18:01.484] Server  LOG      ✓ Compiled in 93ms
-[00:19:04.999] Server  LOG      ✓ Compiled in 103ms
-[00:19:58.057] Server  LOG      ✓ Compiled in 104ms
-[00:20:55.331] Server  LOG      ✓ Compiled in 45ms
-[00:23:05.631] Server  LOG      ✓ Compiled in 43ms
-[00:23:15.066] Server  LOG      ✓ Compiled in 13ms
-[00:23:25.162] Server  LOG      ✓ Compiled in 11ms
-[00:23:49.725] Server  LOG      ✓ Compiled in 46ms
-[00:33:39.260] Server  LOG      ✓ Compiled in 193ms
-[00:36:18.795] Server  LOG      ✓ Compiled in 124ms
-[00:36:53.419] Server  LOG      ✓ Compiled in 25ms
+[00:00:00.818] Server  LOG      ✓ Ready in 609ms
+[00:40:13.168] Server  LOG      ✓ Compiled in 112ms
+[00:40:17.123] Server  ERROR    ⨯ ReferenceError: show is not defined
+[00:40:17.256] Browser ERROR   uncaughtError: ReferenceError: show is not defined
+[00:40:21.919] Server  ERROR    ⨯ ReferenceError: show is not defined
+[00:40:22.586] Browser ERROR   uncaughtError: ReferenceError: show is not defined
+[00:40:43.984] Browser ERROR   ./Exploration-F25-HUDS/app/login/page.tsx:17:29
+Parsing ecmascript source code failed
+  15 |         <p>Password:</p>
+  16 |         <input type="password" className="textbox" name="password" required />
+> 17 |         <input type={"show" "text" : "password"} className="textbox" />
+     |                             ^^^^^^
+  18 |         <button onClick={() => setShow(!show)}>Show</button>
+  19 |
+  20 |         <button className="login-btn">Login</button>
+
+Expected '</', got 'string literal (text, "text")'
+[00:40:48.378] Browser ERROR   ./Exploration-F25-HUDS/app/login/page.tsx:17:29
+Parsing ecmascript source code failed
+  15 |         <p>Password:</p>
+  16 |         <input type="password" className="textbox" name="password" required />
+> 17 |         <input type={"show" "text" : "password"} className="textbox" />
+     |                             ^^^^^^
+  18 |         <button onClick={() => setShow(!show)}>Show</button>
+  19 |
+  20 |         <button className="login-btn">Login</button>
+
+Expected '</', got 'string literal (text, "text")'
+[00:40:58.140] Server  LOG      ✓ Compiled in 20ms
+[00:40:58.408] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <button onClick={function onClick} children=...>
+                  ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:40:58.554] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <button onClick={function onClick} children=...>
+                  ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:41:04.098] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <button onClick={function onClick} children=...>
+                  ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:41:04.217] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <button onClick={function onClick} children=...>
+                  ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:44:39.530] Server  LOG      ✓ Compiled in 62ms
+[00:49:23.788] Server  LOG      ✓ Compiled in 179ms
+[00:50:41.158] Server  LOG      ✓ Compiled in 59ms
+[00:51:08.327] Server  LOG      ✓ Compiled in 18ms
+[00:51:57.397] Server  LOG      ✓ Compiled in 93ms
+[00:52:21.998] Server  LOG      ✓ Compiled in 105ms
+[00:52:46.983] Browser ERROR   ./Exploration-F25-HUDS/app/login/page.tsx:17:29
+Parsing ecmascript source code failed
+  15 |         <p>Password:</p>
+  16 |         <input type="password" className="textbox" name="password" required />
+> 17 |         <input type={"show" "text" : "password"} className="textbox" />
+     |                             ^^^^^^
+  18 |         <button onClick={() => setShow(!show)}>Show</button>
+  19 |
+  20 |         <button className="login-btn">Login</button>
+
+Expected '</', got 'string literal (text, "text")'
+[00:52:46.983] Browser ERROR   ./Exploration-F25-HUDS/app/login/page.tsx:17:29
+Parsing ecmascript source code failed
+  15 |         <p>Password:</p>
+  16 |         <input type="password" className="textbox" name="password" required />
+> 17 |         <input type={"show" "text" : "password"} className="textbox" />
+     |                             ^^^^^^
+  18 |         <button onClick={() => setShow(!show)}>Show</button>
+  19 |
+  20 |         <button className="login-btn">Login</button>
+
+Expected '</', got 'string literal (text, "text")'

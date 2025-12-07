@@ -381,14 +381,6 @@
     }
   }
 
-  .flex {
-    display: flex;
-  }
-
-  .flex-row {
-    flex-direction: row;
-  }
-
   .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -15,10 +15,12 @@ export default function Login() {
         <p>Password:</p>
         <input type="password" className="textbox" name="password" required />
 
-        <button className="login-btn">Login</button>
+        <Link href="/dashboard">
+            <button className="login-btn">Login</button>
+        </Link>
 
         <Link href="/signup">
-          <button className="signup-page-btn">Sign Up?</button>
+          <button className="manuever-btn">Sign Up?</button>
         </Link>
 
       </div>

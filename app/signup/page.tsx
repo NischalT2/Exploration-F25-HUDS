@@ -27,7 +27,7 @@ export default function Signup() {
         <button className="login-btn">Sign Up</button>
 
         <Link href="/login">
-          <button className="signup-page-btn">Already have an account? Login</button>
+          <button className="manuever-btn">Already have an account? Login</button>
         </Link>
 
       </div>

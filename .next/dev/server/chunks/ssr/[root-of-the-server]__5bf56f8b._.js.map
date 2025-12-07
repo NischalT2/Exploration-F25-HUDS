@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/mehardeepsingh/Exploration-F25-HUDS/app/dashboard/page.tsx"],"sourcesContent":["import React from \"react\";\nimport Link from \"next/link\";\nimport \"../styles.css\"\n\nexport default function Dashboard() {\n    return (\n      <div className=\"background\">\n        <div className=\"container\">\n          <p className=\"login-title\">Welcome!</p>\n          <p>You are now logged in.</p>\n          <Link href=\"/login\">\n            <button className=\"manuever-btn\">Log out? </button>\n          </Link>\n        </div>\n      </div>\n    );\n  }"],"names":[],"mappings":";;;;;AACA;;;;AAGe,SAAS;IACpB,qBACE,4QAAC;QAAI,WAAU;kBACb,cAAA,4QAAC;YAAI,WAAU;;8BACb,4QAAC;oBAAE,WAAU;8BAAc;;;;;;8BAC3B,4QAAC;8BAAE;;;;;;8BACH,4QAAC,wNAAI;oBAAC,MAAK;8BACT,cAAA,4QAAC;wBAAO,WAAU;kCAAe;;;;;;;;;;;;;;;;;;;;;;AAK3C","debugId":null}}]
+}
