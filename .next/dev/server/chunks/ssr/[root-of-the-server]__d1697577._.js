@@ -66,12 +66,49 @@ function Signup() {
                             lineNumber: 16,
                             columnNumber: 13
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                            type: "text",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                             className: "textbox",
                             name: "year",
-                            required: true
-                        }, void 0, false, {
+                            required: true,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                    value: "",
+                                    children: "Select a year"
+                                }, void 0, false, {
+                                    fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
+                                    lineNumber: 18,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                    children: "2026"
+                                }, void 0, false, {
+                                    fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
+                                    lineNumber: 19,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                    children: "2027"
+                                }, void 0, false, {
+                                    fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
+                                    lineNumber: 20,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                    children: "2028"
+                                }, void 0, false, {
+                                    fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
+                                    lineNumber: 21,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                    children: "2029"
+                                }, void 0, false, {
+                                    fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
+                                    lineNumber: 22,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
                             lineNumber: 17,
                             columnNumber: 13
@@ -80,7 +117,7 @@ function Signup() {
                             children: "House:"
                         }, void 0, false, {
                             fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                            lineNumber: 19,
+                            lineNumber: 25,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -90,14 +127,14 @@ function Signup() {
                             required: true
                         }, void 0, false, {
                             fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                            lineNumber: 20,
+                            lineNumber: 26,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "Email:"
                         }, void 0, false, {
                             fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                            lineNumber: 22,
+                            lineNumber: 28,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -107,14 +144,14 @@ function Signup() {
                             required: true
                         }, void 0, false, {
                             fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                            lineNumber: 23,
+                            lineNumber: 29,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "Password:"
                         }, void 0, false, {
                             fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                            lineNumber: 25,
+                            lineNumber: 31,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -124,7 +161,7 @@ function Signup() {
                             required: true
                         }, void 0, false, {
                             fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                            lineNumber: 26,
+                            lineNumber: 32,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Exploration$2d$F25$2d$HUDS$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -134,12 +171,12 @@ function Signup() {
                                 children: "Sign Up"
                             }, void 0, false, {
                                 fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                                lineNumber: 28,
+                                lineNumber: 34,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                            lineNumber: 27,
+                            lineNumber: 33,
                             columnNumber: 13
                         }, this)
                     ]
@@ -155,12 +192,12 @@ function Signup() {
                         children: "Already have an account? Login"
                     }, void 0, false, {
                         fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                        lineNumber: 33,
+                        lineNumber: 39,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Exploration-F25-HUDS/app/signup/page.tsx",
-                    lineNumber: 32,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this)
             ]

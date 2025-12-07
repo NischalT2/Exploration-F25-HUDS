@@ -14,7 +14,13 @@ export default function Signup() {
             <input type="text" className="textbox" name="name" required />
 
             <p>Graduation Year:</p>
-            <input type="text" className="textbox" name="year" required />
+            <select className="textbox" name="year" required>
+                <option value="">Select a year</option>
+                <option>2026</option>
+                <option>2027</option>
+                <option>2028</option>
+                <option>2029</option>
+            </select>
 
             <p>House:</p>
             <input type="text" className="textbox" name="house" required />
