@@ -9,22 +9,25 @@ export default function Signup() {
 
         <p className="login-title">Create Account</p>
 
-        <p>Name:</p>
-        <input type="text" className="textbox" name="name" required />
+        <form action="/dashboard">
+            <p>Name:</p>
+            <input type="text" className="textbox" name="name" required />
 
-        <p>Graduation Year:</p>
-        <input type="text" className="textbox" name="gradYear" required />
+            <p>Graduation Year:</p>
+            <input type="text" className="textbox" name="year" required />
 
-        <p>House:</p>
-        <input type="text" className="textbox" name="house" required />
+            <p>House:</p>
+            <input type="text" className="textbox" name="house" required />
 
-        <p>Email:</p>
-        <input type="email" className="textbox" name="email" required />
+            <p>Email:</p>
+            <input type="email" className="textbox" name="email" required />
 
-        <p>Password:</p>
-        <input type="password" className="textbox" name="password" required />
-
-        <button className="login-btn">Sign Up</button>
+            <p>Password:</p>
+            <input type="password" className="textbox" name="password" required />
+            <p>
+                <button type="submit" className="login-btn">Sign Up</button>
+            </p>
+        </form>
 
         <Link href="/login">
           <button className="manuever-btn">Already have an account? Login</button>
