@@ -1,8 +1,22 @@
 /* [project]/Exploration-F25-HUDS/app/styles.css [app-client] (css) */
+.background {
+  background-image: url("https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2017/10/05/195827_1324710.jpg.2000x1333_q95_crop-smart_upscale.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
 .login-container {
+  color: #000;
+  background-color: #fff;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  width: 50vw;
+  margin-top: 20px;
+  margin-left: 20px;
   display: flex;
 }
 
@@ -13,15 +27,20 @@
 }
 
 .login-btn {
+  color: #fff;
   cursor: pointer;
+  background-color: maroon;
   margin-top: 10px;
   padding: 8px 16px;
   font-size: 16px;
 }
 
+.signup-page-btn {
+  color: maroon;
+}
+
 .textbox {
-  color: #000;
-  background-color: #fff;
+  background-color: #ada8a8;
 }
 
 /*# sourceMappingURL=Exploration-F25-HUDS_app_styles_04405ec7.css.map*/
