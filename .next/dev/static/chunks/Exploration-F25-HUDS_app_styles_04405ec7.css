@@ -3,21 +3,25 @@
   background-image: url("https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2017/10/05/195827_1324710.jpg.2000x1333_q95_crop-smart_upscale.jpg");
   background-position: center;
   background-size: cover;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   display: flex;
+  position: relative;
 }
 
-.login-container {
+.container {
+  z-index: 1;
   color: #000;
-  background-color: #fff;
+  background: #ffffffe6;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 50vw;
-  margin-top: 20px;
-  margin-left: 20px;
+  gap: 10px;
+  width: 380px;
+  padding: 32px 40px;
   display: flex;
+  position: relative;
 }
 
 .login-title {
@@ -40,7 +44,7 @@
 }
 
 .textbox {
-  background-color: #ada8a8;
+  background-color: #d9dddc;
 }
 
 /*# sourceMappingURL=Exploration-F25-HUDS_app_styles_04405ec7.css.map*/

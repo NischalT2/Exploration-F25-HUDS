@@ -1,24 +1,28 @@
 .background {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     background-image: url("https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2017/10/05/195827_1324710.jpg.2000x1333_q95_crop-smart_upscale.jpg");
     background-position: center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
 }
-
-.login-container {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: #fff;
-    color: #000;
-    width: 50vw;
-  }
-  
+    gap: 10px;  
+    position: relative;
+    z-index: 1;
+    background: rgba(255,255,255,0.9);
+    color: black;
+    width: 380px;
+    padding: 32px 40px;
+
+}
+
   .login-title {
     font-weight: bold;
     font-size: 28px;
@@ -39,5 +43,5 @@
   }
 
   .textbox {
-    background-color: #ada8a8;
+    background-color: #d9dddc;
   }

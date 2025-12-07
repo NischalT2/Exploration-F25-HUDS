@@ -1,154 +1,33 @@
-[00:00:00.881] Server  LOG      ✓ Ready in 664ms
-[00:00:31.665] Server  LOG      ✓ Compiled in 44ms
-[00:01:02.397] Server  LOG      ✓ Compiled in 27ms
-[00:01:21.257] Server  LOG      ✓ Compiled in 79ms
-[00:01:21.370] Browser ERROR   ./Exploration-F25-HUDS/app/styles.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/mehardeepsingh/Exploration-F25-HUDS/app/styles.css:25:4: Unknown word rgb
-    [at Input.error (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./Exploration-F25-HUDS/app/styles.css [Client Component Browser]
-    ./Exploration-F25-HUDS/app/login/page.tsx [Server Component]
-[00:01:26.978] Server  ERROR    ⨯ ./Exploration-F25-HUDS/app/styles.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/mehardeepsingh/Exploration-F25-HUDS/app/styles.css:25:4: Unknown word rgb
-    [at Input.error (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./Exploration-F25-HUDS/app/styles.css [Client Component Browser]
-    ./Exploration-F25-HUDS/app/login/page.tsx [Server Component]
-
-
-[00:01:27.107] Browser ERROR   ./Exploration-F25-HUDS/app/styles.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/mehardeepsingh/Exploration-F25-HUDS/app/styles.css:25:4: Unknown word rgb
-    [at Input.error (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./Exploration-F25-HUDS/app/styles.css [Client Component Browser]
-    ./Exploration-F25-HUDS/app/login/page.tsx [Server Component]
-[00:01:27.602] Browser ERROR   ./Exploration-F25-HUDS/app/styles.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/mehardeepsingh/Exploration-F25-HUDS/app/styles.css:25:4: Unknown word rgb
-    [at Input.error (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./Exploration-F25-HUDS/app/styles.css [Client Component Browser]
-    ./Exploration-F25-HUDS/app/login/page.tsx [Server Component]
-[00:01:27.917] Browser ERROR   ./Exploration-F25-HUDS/app/styles.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/mehardeepsingh/Exploration-F25-HUDS/app/styles.css:25:4: Unknown word rgb
-    [at Input.error (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./Exploration-F25-HUDS/app/styles.css [Client Component Browser]
-    ./Exploration-F25-HUDS/app/login/page.tsx [Server Component]
-[00:01:27.917] Browser ERROR   uncaughtError: Error: ./Exploration-F25-HUDS/app/styles.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/mehardeepsingh/Exploration-F25-HUDS/app/styles.css:25:4: Unknown word rgb
-    [at Input.error (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./Exploration-F25-HUDS/app/styles.css [Client Component Browser]
-    ./Exploration-F25-HUDS/app/login/page.tsx [Server Component]
-
-
-[00:01:27.917] Browser ERROR   ./Exploration-F25-HUDS/app/styles.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/mehardeepsingh/Exploration-F25-HUDS/app/styles.css:25:4: Unknown word rgb
-    [at Input.error (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/Exploration-F25-HUDS/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./Exploration-F25-HUDS/app/styles.css [Client Component Browser]
-    ./Exploration-F25-HUDS/app/login/page.tsx [Server Component]
-[00:02:07.976] Server  LOG      ✓ Compiled in 81ms
-[00:02:20.495] Server  LOG      ✓ Compiled in 19ms
-[00:03:10.093] Server  LOG      ✓ Compiled in 18ms
-[00:03:50.351] Server  LOG      ✓ Compiled in 21ms
-[00:04:03.306] Server  LOG      ✓ Compiled in 17ms
-[00:04:40.461] Server  LOG      ✓ Compiled in 19ms
-[00:05:36.687] Server  LOG      ✓ Compiled in 30ms
-[00:09:17.195] Server  LOG      ✓ Compiled in 108ms
-[00:10:02.171] Server  LOG      ✓ Compiled in 91ms
-[00:10:47.427] Server  LOG      ✓ Compiled in 91ms
-[00:11:13.369] Server  LOG      ✓ Compiled in 43ms
-[00:11:32.795] Server  LOG      ✓ Compiled in 15ms
-[00:34:05.425] Server  LOG      ✓ Compiled in 122ms
-[00:35:04.482] Server  LOG      ✓ Compiled in 82ms
-[00:36:22.748] Server  LOG      ✓ Compiled in 79ms
-[00:38:02.591] Server  LOG      ✓ Compiled in 115ms
-[00:47:15.008] Server  LOG      ✓ Compiled in 70ms
-[00:47:30.919] Server  LOG      ✓ Compiled in 13ms
-[00:48:01.910] Server  LOG      ✓ Compiled in 25ms
-[00:48:16.838] Server  LOG      ✓ Compiled in 30ms
+[00:00:00.849] Server  LOG      ✓ Ready in 627ms
+[00:01:22.379] Server  LOG      ✓ Compiled in 50ms
+[00:01:59.599] Server  LOG      ✓ Compiled in 35ms
+[00:04:16.687] Server  LOG      ✓ Compiled in 64ms
+[00:06:43.701] Server  LOG      ✓ Compiled in 125ms
+[00:06:55.000] Server  LOG      ✓ Compiled in 28ms
+[00:07:09.384] Server  LOG      ✓ Compiled in 14ms
+[00:07:30.436] Server  LOG      ✓ Compiled in 15ms
+[00:07:55.164] Server  LOG      ✓ Compiled in 92ms
+[00:09:23.676] Server  LOG      ✓ Compiled in 86ms
+[00:10:04.523] Server  LOG      ✓ Compiled in 38ms
+[00:11:09.145] Server  LOG      ✓ Compiled in 42ms
+[00:11:28.486] Server  LOG      ✓ Compiled in 85ms
+[00:11:43.985] Server  LOG      ✓ Compiled in 27ms
+[00:11:58.642] Server  LOG      ✓ Compiled in 14ms
+[00:12:16.926] Server  LOG      ✓ Compiled in 30ms
+[00:12:28.486] Server  LOG      ✓ Compiled in 12ms
+[00:13:09.114] Server  LOG      ✓ Compiled in 143ms
+[00:14:57.633] Server  LOG      ✓ Compiled in 40ms
+[00:15:11.765] Server  LOG      ✓ Compiled in 10ms
+[00:15:31.241] Server  LOG      ✓ Compiled in 11ms
+[00:16:00.297] Server  LOG      ✓ Compiled in 101ms
+[00:18:01.484] Server  LOG      ✓ Compiled in 93ms
+[00:19:04.999] Server  LOG      ✓ Compiled in 103ms
+[00:19:58.057] Server  LOG      ✓ Compiled in 104ms
+[00:20:55.331] Server  LOG      ✓ Compiled in 45ms
+[00:23:05.631] Server  LOG      ✓ Compiled in 43ms
+[00:23:15.066] Server  LOG      ✓ Compiled in 13ms
+[00:23:25.162] Server  LOG      ✓ Compiled in 11ms
+[00:23:49.725] Server  LOG      ✓ Compiled in 46ms
+[00:33:39.260] Server  LOG      ✓ Compiled in 193ms
+[00:36:18.795] Server  LOG      ✓ Compiled in 124ms
+[00:36:53.419] Server  LOG      ✓ Compiled in 25ms

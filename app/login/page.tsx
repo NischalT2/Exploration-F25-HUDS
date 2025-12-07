@@ -3,25 +3,25 @@ import Link from "next/link";
 import "../styles.css";
 
 export default function Login() {
-    return (
-        <div className="background">
-            <div className="login-container">
-                <p className="login-title">Login</p>
-        
-                <p>Username </p>
-                <input type="text" className="textbox" name="username" required></input>
+  return (
+    <div className="background">
+      <div className="container">
 
-                <p>Password </p>
-                <input type="password" className="textbox" name="password" required></input>
-                <p></p>
-                <button className="login-btn">Login</button>
+        <p className="login-title">HUDS Login</p>
 
-                <p></p>
-                <Link href="/signup">
-                <button className="signup-page-btn">Sign Up</button>
-                </Link>
-            </div>
-        </div>
-    );
-  }
-  
+        <p>Username:</p>
+        <input type="text" className="textbox" name="username" required />
+
+        <p>Password:</p>
+        <input type="password" className="textbox" name="password" required />
+
+        <button className="login-btn">Login</button>
+
+        <Link href="/signup">
+          <button className="signup-page-btn">Sign Up?</button>
+        </Link>
+
+      </div>
+    </div>
+  );
+}
