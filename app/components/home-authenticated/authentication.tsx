@@ -1,4 +1,4 @@
-import Navbar from "../components/navbar";
+import Navbar from "../navbar";
 import Link from "next/link";
 
 export default function HomeAuthenticated() {

@@ -1,5 +1,7 @@
-[00:00:00.632] Server  LOG      ✓ Ready in 488ms
-[00:00:05.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:09.693] Server  LOG      ✓ Compiled in 23ms
-[00:02:31.885] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:15.626] Server  LOG      ✓ Compiled in 16ms
+[00:00:00.684] Server  LOG      ✓ Ready in 517ms
+[00:00:08.195] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.732] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/crimson.png" "received" null
+[00:00:40.158] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/crimson.png" "received" null
+[00:00:40.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:40.475] Browser WARN    Image with src "/crimson.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:30.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

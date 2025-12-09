@@ -1,8 +1,13 @@
+import Navbar from "../navbar";
+
 export default function Login() {
-    return (
-        <div className="min-h-screen p-8">
-            <h1 className="text-2xl font-bold">Login Page</h1>
-        </div>
-    );
+  return (
+    <>
+      <Navbar isAuthenticated={false}></Navbar>
+      <div>
+        <h1>Login Page</h1>
+      </div>
+    </>
+  );
 }
 

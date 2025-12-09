@@ -29,12 +29,6 @@ export default function Navbar({ isAuthenticated = false }: NavbarProps) {
                 </span>
               </div>
             </Link>
-            <nav className="flex items-center space-x-4">
-              <a href="/harvard" className="flex items-center">
-                <img src="/harvard.png" alt="Harvard" className="h-6 w-auto mr-2" />
-                <span className="text-[#A51C30] font-bold text-lg tracking-tight">Harvard University</span>
-              </a>
-            </nav>
           </div>
           <div className="flex items-center space-x-2">
             {/*Creates a button for the home page: both for authenticated and guest users */}
