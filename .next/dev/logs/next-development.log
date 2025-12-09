@@ -1,0 +1,1642 @@
+[00:00:00.910] Server  LOG      ✓ Ready in 648ms
+[00:00:20.083] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:32.112] Browser ERROR   ./app/housemenu/page.tsx:8:11
+Parsing ecmascript source code failed
+   6 | 	        <HouseCard imageURL="/lowell.jpeg" name="Lowell">
+   7 |         
+>  8 |         </>
+     |           ^
+   9 |     )
+  10 | }
+  11 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:06:15.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:11.111] Browser ERROR   ./components/housecard.tsx:12:25
+Parsing ecmascript source code failed
+  10 |         <>
+  11 | 	        <img src={imageURL} alt="image"></img>
+> 12 |             <p/>{name}</p> {/*<--- This is how you reference the variables inside the HTML section*/}
+     |                         ^
+  13 |             {/*include src within bracket*/}
+  14 |             {/*style it so its smaller*/}
+  15 |         </>
+
+Expected '>', got 'p'
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:16:57.110] Browser ERROR   ./app/housemenu/page.tsx:6:62
+Parsing ecmascript source code failed
+  4 |     return(
+  5 |         <>
+> 6 | 	        <HouseCard imageURL="/lowell.jpeg" name="Lowell"/></Housecard
+    | 	                                                            ^^^^^^^^^
+  7 |         
+  8 |         </>
+  9 |     )
+
+Expected '>', got 'Housecard'
+[00:16:58.113] Browser ERROR   ./app/housemenu/page.tsx:6:62
+Parsing ecmascript source code failed
+  4 |     return(
+  5 |         <>
+> 6 | 	        <HouseCard imageURL="/lowell.jpeg" name="Lowell"/></Housecard>
+    | 	                                                            ^^^^^^^^^
+  7 |         
+  8 |         </>
+  9 |     )
+
+Expected '>', got 'Housecard'
+[00:17:15.112] Browser ERROR   ./app/housemenu/page.tsx:6:71
+Parsing ecmascript source code failed
+   4 |     return(
+   5 |         <>
+>  6 | 	        <HouseCard imageURL="/lowell.jpeg" name="Lowell"></Housecard>
+     | 	                                                                     ^
+>  7 |         
+     | ^^^^^^^^
+>  8 |         </>
+     | ^^^^^^^^^
+   9 |     )
+  10 | }
+  11 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expected '</', got 'jsx text (
+        
+        )'
+[00:17:26.112] Browser ERROR   ./app/housemenu/page.tsx:6:71
+Parsing ecmascript source code failed
+   4 |     return(
+   5 |         <>
+>  6 | 	        <HouseCard imageURL="/lowell.jpeg" name="Lowell"></Housecard>
+     | 	                                                                     ^
+>  7 |         
+     | ^^^^^^^^
+>  8 |         </>
+     | ^^^^^^^^^
+   9 |     )
+  10 | }
+  11 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expected '</', got 'jsx text (
+        
+        )'
+[00:17:33.111] Browser ERROR   ./app/housemenu/page.tsx:8:11
+Parsing ecmascript source code failed
+   6 | 	        <HouseCard imageURL="/lowell.jpeg" name="Lowell">/
+   7 |         
+>  8 |         </>
+     |           ^
+   9 |     )
+  10 | }
+  11 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:17:36.111] Browser ERROR   ./app/housemenu/page.tsx:8:11
+Parsing ecmascript source code failed
+   6 | 	        <HouseCard imageURL="/lowell.jpeg" name="Lowell">
+   7 |         
+>  8 |         </>
+     |           ^
+   9 |     )
+  10 | }
+  11 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:17:55.110] Browser ERROR   ./app/housemenu/page.tsx:12:106
+Parsing ecmascript source code failed
+  10 |     )
+  11 | }
+> 12 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+     |                                                                                                          ^
+
+Unterminated block comment
+[00:18:00.110] Browser ERROR   ./app/housemenu/page.tsx:12:106
+Parsing ecmascript source code failed
+  10 |     )
+  11 | }
+> 12 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+     |                                                                                                          ^
+
+Unterminated block comment
+[00:18:08.111] Browser ERROR   ./app/housemenu/page.tsx:12:106
+Parsing ecmascript source code failed
+  10 |     )
+  11 | }
+> 12 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+     |                                                                                                          ^
+
+Unterminated block comment
+[00:18:21.114] Browser ERROR   ./app/housemenu/page.tsx:12:106
+Parsing ecmascript source code failed
+  10 |     )
+  11 | }
+> 12 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+     |                                                                                                          ^
+
+Unterminated block comment
+[00:18:25.477] Server  LOG      ✓ Compiled in 26ms
+[00:19:25.111] Browser ERROR   ./app/housemenu/page.tsx:5:11
+Parsing ecmascript source code failed
+  3 | export default function HouseMenu() {
+  4 |     const houses = [
+> 5 |         { : 1, name: ""}
+    |           ^
+  6 |     ]
+  7 |     return(
+  8 |         <>
+
+Unexpected token `:`. Expected identifier, string literal, numeric literal or [ for the computed key
+[00:19:58.112] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:20:59.111] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:21:09.109] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:21:39.110] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:21:43.114] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:21:46.112] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:21:53.110] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:22:05.111] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:22:08.111] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:22:10.111] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:22:16.111] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:22:23.112] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:22:30.111] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:22:36.110] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:22:38.112] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:23:10.111] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:23:17.110] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:23:19.115] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:23:42.112] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:23:42.112] Browser ERROR   ./app/housemenu/page.tsx:6:13
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+> 6 |         {...}
+    |             ^
+  7 |     ]
+  8 |     return(
+  9 |         <>
+
+Expression expected
+[00:40:43.298] Browser ERROR   ./app/housemenu/page.tsx:6:9
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "adams"}
+> 6 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+    |         ^
+  7 |         { name: ""}
+  8 |     ]
+  9 |     return(
+
+Expected ',', got '{'
+[00:40:47.293] Browser ERROR   ./app/housemenu/page.tsx:6:9
+Parsing ecmascript source code failed
+  4 |     const houses = [
+  5 |         { name: "adams", }
+> 6 |         { name: "lowell", imageURL: "/lowell.jpeg"},
+    |         ^
+  7 |         { name: ""}
+  8 |     ]
+  9 |     return(
+
+Expected ',', got '{'
+[00:45:23.292] Browser ERROR   ./app/housemenu/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  23 |         
+> 24 |         </>
+     |           ^
+  25 |     )
+  26 | }
+  27 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:45:40.996] Server  LOG      ✓ Compiled in 53ms
+[00:45:41.293] Browser ERROR   ./app/housemenu/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  23 |         
+> 24 |         </>
+     |           ^
+  25 |     )
+  26 | }
+  27 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:45:42.095] Server  LOG      ✓ Compiled in 19ms
+[00:45:42.296] Browser ERROR   ./app/housemenu/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  23 |         
+> 24 |         </>
+     |           ^
+  25 |     )
+  26 | }
+  27 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:45:44.292] Browser ERROR   ./app/housemenu/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  23 |         
+> 24 |         </>
+     |           ^
+  25 |     )
+  26 | }
+  27 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:45:55.292] Browser ERROR   ./app/housemenu/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  23 |         
+> 24 |         </>
+     |           ^
+  25 |     )
+  26 | }
+  27 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:45:57.294] Browser ERROR   ./app/housemenu/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  23 |         
+> 24 |         </>
+     |           ^
+  25 |     )
+  26 | }
+  27 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:46:01.292] Browser ERROR   ./app/housemenu/page.tsx:25:11
+Parsing ecmascript source code failed
+  23 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  24 |         
+> 25 |         </>
+     |           ^
+  26 |     )
+  27 | }
+  28 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:46:05.292] Browser ERROR   ./app/housemenu/page.tsx:21:10
+Parsing ecmascript source code failed
+  19 |         <div className="px-8 py-6 w-full h-screen overflow-y-scroll bg-gray-50">
+  20 |             <div
+> 21 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	        ^
+  22 |             {/*loops thru everything for houses.map*/}
+  23 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  24 |         
+
+Expression expected
+[00:46:21.447] Server  LOG      ✓ Compiled in 31ms
+[00:46:22.292] Browser ERROR   ./app/housemenu/page.tsx:21:10
+Parsing ecmascript source code failed
+  19 |         <div className="px-8 py-6 w-full h-screen overflow-y-scroll bg-gray-50">
+  20 |             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+> 21 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	        ^
+  22 |             {/*loops thru everything for houses.map*/}
+  23 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  24 |         
+
+Expression expected
+[00:46:26.577] Server  LOG      ✓ Compiled in 18ms
+[00:46:27.296] Browser ERROR   ./app/housemenu/page.tsx:21:10
+Parsing ecmascript source code failed
+  19 |         <div className="px-8 py-6 w-full h-screen overflow-y-scroll bg-gray-50">
+  20 |             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+> 21 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	        ^
+  22 |             {/*loops thru everything for houses.map*/}
+  23 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  24 |         
+
+Expression expected
+[00:46:31.294] Browser ERROR   ./app/housemenu/page.tsx:21:10
+Parsing ecmascript source code failed
+  19 |         <div className="px-8 py-6 w-full h-screen overflow-y-scroll bg-gray-50">
+  20 |             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 "
+> 21 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	        ^
+  22 |             {/*loops thru everything for houses.map*/}
+  23 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  24 |         
+
+Expression expected
+[00:46:34.292] Browser ERROR   ./app/housemenu/page.tsx:21:10
+Parsing ecmascript source code failed
+  19 |         <div className="px-8 py-6 w-full h-screen overflow-y-scroll bg-gray-50">
+  20 |             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+> 21 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	        ^
+  22 |             {/*loops thru everything for houses.map*/}
+  23 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  24 |         
+
+Expression expected
+[00:46:37.293] Browser ERROR   ./app/housemenu/page.tsx:25:11
+Parsing ecmascript source code failed
+  23 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  24 |         
+> 25 |         </>
+     |           ^
+  26 |     )
+  27 | }
+  28 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:46:54.293] Browser ERROR   ./app/housemenu/page.tsx:26:11
+Parsing ecmascript source code failed
+  24 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  25 |         
+> 26 |         </>
+     |           ^
+  27 |     )
+  28 | }
+  29 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:47:00.293] Browser ERROR   ./app/housemenu/page.tsx:26:11
+Parsing ecmascript source code failed
+  24 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  25 |         
+> 26 |         </>
+     |           ^
+  27 |     )
+  28 | }
+  29 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:47:02.292] Browser ERROR   ./app/housemenu/page.tsx:26:11
+Parsing ecmascript source code failed
+  24 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  25 |         
+> 26 |         </>
+     |           ^
+  27 |     )
+  28 | }
+  29 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:47:06.293] Browser ERROR   ./app/housemenu/page.tsx:26:11
+Parsing ecmascript source code failed
+  24 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  25 |         
+> 26 |         </>
+     |           ^
+  27 |     )
+  28 | }
+  29 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:47:11.292] Browser ERROR   ./app/housemenu/page.tsx:21:42
+Parsing ecmascript source code failed
+  19 |         <div className="px-8 py-6 w-full h-screen overflow-y-scroll bg-gray-50">
+  20 |             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"/>
+> 21 |                 {houses.map((house) => ())}
+     |                                          ^
+  22 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  23 |             {/*loops thru everything for houses.map*/}
+  24 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:13.292] Browser ERROR   ./app/housemenu/page.tsx:23:18
+Parsing ecmascript source code failed
+  21 |                 {houses.map((house) => (
+  22 |                     
+> 23 |                 ))}
+     |                  ^
+  24 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  25 |             {/*loops thru everything for houses.map*/}
+  26 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:23.292] Browser ERROR   ./app/housemenu/page.tsx:23:17
+Parsing ecmascript source code failed
+  21 |                 {houses.map((house) => (
+  22 |                     <HouseCard
+> 23 |                 ))}
+     |                 ^
+  24 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  25 |             {/*loops thru everything for houses.map*/}
+  26 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:27.292] Browser ERROR   ./app/housemenu/page.tsx:24:17
+Parsing ecmascript source code failed
+  22 |                     <HouseCard
+  23 |                     
+> 24 |                 ))}
+     |                 ^
+  25 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  26 |             {/*loops thru everything for houses.map*/}
+  27 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:31.292] Browser ERROR   ./app/housemenu/page.tsx:24:17
+Parsing ecmascript source code failed
+  22 |                     <HouseCard
+  23 |                         
+> 24 |                 ))}
+     |                 ^
+  25 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  26 |             {/*loops thru everything for houses.map*/}
+  27 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:33.293] Browser ERROR   ./app/housemenu/page.tsx:24:17
+Parsing ecmascript source code failed
+  22 |                     <HouseCard
+  23 |                         name=
+> 24 |                 ))}
+     |                 ^
+  25 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  26 |             {/*loops thru everything for houses.map*/}
+  27 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:37.293] Browser ERROR   ./app/housemenu/page.tsx:24:17
+Parsing ecmascript source code failed
+  22 |                     <HouseCard
+  23 |                         name={house.name}
+> 24 |                 ))}
+     |                 ^
+  25 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  26 |             {/*loops thru everything for houses.map*/}
+  27 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:38.292] Browser ERROR   ./app/housemenu/page.tsx:25:17
+Parsing ecmascript source code failed
+  23 |                         name={house.name}
+  24 |                         
+> 25 |                 ))}
+     |                 ^
+  26 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  27 |             {/*loops thru everything for houses.map*/}
+  28 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:41.299] Browser ERROR   ./app/housemenu/page.tsx:25:17
+Parsing ecmascript source code failed
+  23 |                         name={house.name}
+  24 |                         imageURL={}
+> 25 |                 ))}
+     |                 ^
+  26 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  27 |             {/*loops thru everything for houses.map*/}
+  28 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:45.292] Browser ERROR   ./app/housemenu/page.tsx:25:17
+Parsing ecmascript source code failed
+  23 |                         name={house.name}
+  24 |                         imageURL={house.imageURL}
+> 25 |                 ))}
+     |                 ^
+  26 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  27 |             {/*loops thru everything for houses.map*/}
+  28 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:50.292] Browser ERROR   ./app/housemenu/page.tsx:26:17
+Parsing ecmascript source code failed
+  24 |                         imageURL={house.imageURL}
+  25 |                     
+> 26 |                 ))}
+     |                 ^
+  27 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  28 |             {/*loops thru everything for houses.map*/}
+  29 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expected '</', got ')'
+[00:47:52.293] Browser ERROR   ./app/housemenu/page.tsx:31:11
+Parsing ecmascript source code failed
+  29 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  30 |         
+> 31 |         </>
+     |           ^
+  32 |     )
+  33 | }
+  34 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:47:56.293] Browser ERROR   ./app/housemenu/page.tsx:32:11
+Parsing ecmascript source code failed
+  30 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  31 |         
+> 32 |         </>
+     |           ^
+  33 |     )
+  34 | }
+  35 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:47:58.293] Browser ERROR   ./app/housemenu/page.tsx:32:11
+Parsing ecmascript source code failed
+  30 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  31 |         
+> 32 |         </>
+     |           ^
+  33 |     )
+  34 | }
+  35 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:48:02.292] Browser ERROR   ./app/housemenu/page.tsx:28:10
+Parsing ecmascript source code failed
+  26 |                 ))}
+  27 |             </div
+> 28 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	        ^
+  29 |             {/*loops thru everything for houses.map*/}
+  30 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  31 |         
+
+Expression expected
+[00:48:04.292] Browser ERROR   ./app/housemenu/page.tsx:29:21
+Parsing ecmascript source code failed
+  27 |             </div>
+  28 |             
+> 29 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	                   ^^^^^^^^
+  30 |             {/*loops thru everything for houses.map*/}
+  31 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  32 |         
+
+Expected ',', got 'imageURL'
+[00:48:10.292] Browser ERROR   ./app/housemenu/page.tsx:29:21
+Parsing ecmascript source code failed
+  27 |             </div>
+  28 |         
+> 29 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	                   ^^^^^^^^
+  30 |             {/*loops thru everything for houses.map*/}
+  31 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  32 |         
+
+Expected ',', got 'imageURL'
+[00:48:13.293] Browser ERROR   ./app/housemenu/page.tsx:28:10
+Parsing ecmascript source code failed
+  26 |                 ))}
+  27 |             </div>
+> 28 |         </div>
+     |          ^^^^^
+  29 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  30 |             {/*loops thru everything for houses.map*/}
+  31 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Unterminated regexp literal
+[00:48:17.293] Browser ERROR   ./app/housemenu/page.tsx:29:21
+Parsing ecmascript source code failed
+  27 |             </div>
+  28 |         </div>
+> 29 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	                   ^^^^^^^^
+  30 |             {/*loops thru everything for houses.map*/}
+  31 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  32 |         
+
+Expected ',', got 'imageURL'
+[00:48:20.293] Browser ERROR   ./app/housemenu/page.tsx:28:10
+Parsing ecmascript source code failed
+  26 |                 ))}
+  27 |             </div>
+> 28 |         </div>
+     |          ^^^^^
+  29 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+  30 |             {/*loops thru everything for houses.map*/}
+  31 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Unterminated regexp literal
+[00:48:35.292] Browser ERROR   ./app/housemenu/page.tsx:29:21
+Parsing ecmascript source code failed
+  27 |             </div>
+  28 |         </div>
+> 29 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	                   ^^^^^^^^
+  30 |             {/*loops thru everything for houses.map*/}
+  31 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  32 |         
+
+Expected ',', got 'imageURL'
+[00:48:50.293] Browser ERROR   ./app/housemenu/page.tsx:30:21
+Parsing ecmascript source code failed
+  28 |         </div>
+  29 |     
+> 30 | 	        <HouseCard imageURL={houses.imageURL} name={houses.name}/>
+     | 	                   ^^^^^^^^
+  31 |             {/*loops thru everything for houses.map*/}
+  32 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  33 |         
+
+Expected ',', got 'imageURL'
+[00:48:51.292] Browser ERROR   ./app/housemenu/page.tsx:34:9
+Parsing ecmascript source code failed
+  32 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  33 |         
+> 34 |         </>
+     |         ^
+  35 |     )
+  36 | }
+  37 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:48:51.292] Browser ERROR   ./app/housemenu/page.tsx:34:10
+Parsing ecmascript source code failed
+  32 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  33 |         
+> 34 |         </>
+     |          ^^
+  35 |     )
+  36 | }
+  37 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Unterminated regexp literal
+[00:49:04.292] Browser ERROR   ./app/housemenu/page.tsx:33:9
+Parsing ecmascript source code failed
+  31 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  32 |         
+> 33 |         </>
+     |         ^
+  34 |     )
+  35 | }
+  36 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:49:04.292] Browser ERROR   ./app/housemenu/page.tsx:33:10
+Parsing ecmascript source code failed
+  31 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  32 |         
+> 33 |         </>
+     |          ^^
+  34 |     )
+  35 | }
+  36 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Unterminated regexp literal
+[00:49:17.293] Browser ERROR   ./app/housemenu/page.tsx:33:5
+Parsing ecmascript source code failed
+  31 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+  32 |         
+> 33 |     )
+     |     ^
+  34 | }
+  35 | // Here, you will create a grid of the itemCards and you can use example items for each of the itemCards.
+
+Expression expected
+[00:49:20.205] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:50:33.294] Browser ERROR   ./app/housemenu/page.tsx:23:25
+Parsing ecmascript source code failed
+  21 |                 {houses.map((house) => (
+  22 |                     <HouseCard
+> 23 |                         <div key={item.id}>{item.name}</div>
+     |                         ^
+  24 |                         name={house.name}
+  25 |                         imageURL={house.imageURL}
+  26 |                     />
+
+Expression expected
+[00:50:37.294] Browser ERROR   ./app/housemenu/page.tsx:24:25
+Parsing ecmascript source code failed
+  22 |                     <HouseCard
+  23 |                         key={item.id}>{item.name}</div>
+> 24 |                         name={house.name}
+     |                         ^^^^
+  25 |                         imageURL={house.imageURL}
+  26 |                     />
+  27 |                 ))}
+
+Expected '</', got 'name'
+[00:50:39.292] Browser ERROR   ./app/housemenu/page.tsx:29:9
+Parsing ecmascript source code failed
+  27 |                 ))}
+  28 |             </div>
+> 29 |         </div>
+     |         ^
+  30 |     );
+  31 |             {/*loops thru everything for houses.map*/}
+  32 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expression expected
+[00:50:39.292] Browser ERROR   ./app/housemenu/page.tsx:26:22
+Parsing ecmascript source code failed
+  24 |                         name={house.name}
+  25 |                         imageURL={house.imageURL}
+> 26 |                     />
+     |                      ^
+  27 |                 ))}
+  28 |             </div>
+  29 |         </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:50:39.292] Browser ERROR   ./app/housemenu/page.tsx:27:19
+Parsing ecmascript source code failed
+  25 |                         imageURL={house.imageURL}
+  26 |                     />
+> 27 |                 ))}
+     |                   ^
+  28 |             </div>
+  29 |         </div>
+  30 |     );
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:50:39.292] Browser ERROR   ./app/housemenu/page.tsx:29:10
+Parsing ecmascript source code failed
+  27 |                 ))}
+  28 |             </div>
+> 29 |         </div>
+     |          ^^^^^
+  30 |     );
+  31 |             {/*loops thru everything for houses.map*/}
+  32 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Unterminated regexp literal
+[00:50:41.292] Browser ERROR   ./app/housemenu/page.tsx:29:9
+Parsing ecmascript source code failed
+  27 |                 ))}
+  28 |             </div>
+> 29 |         </div>
+     |         ^
+  30 |     );
+  31 |             {/*loops thru everything for houses.map*/}
+  32 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expression expected
+[00:50:41.292] Browser ERROR   ./app/housemenu/page.tsx:26:22
+Parsing ecmascript source code failed
+  24 |                         name={house.name}
+  25 |                         imageURL={house.imageURL}
+> 26 |                     />
+     |                      ^
+  27 |                 ))}
+  28 |             </div>
+  29 |         </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:50:41.292] Browser ERROR   ./app/housemenu/page.tsx:27:19
+Parsing ecmascript source code failed
+  25 |                         imageURL={house.imageURL}
+  26 |                     />
+> 27 |                 ))}
+     |                   ^
+  28 |             </div>
+  29 |         </div>
+  30 |     );
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:50:41.292] Browser ERROR   ./app/housemenu/page.tsx:29:10
+Parsing ecmascript source code failed
+  27 |                 ))}
+  28 |             </div>
+> 29 |         </div>
+     |          ^^^^^
+  30 |     );
+  31 |             {/*loops thru everything for houses.map*/}
+  32 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Unterminated regexp literal
+[00:50:43.294] Browser ERROR   ./app/housemenu/page.tsx:29:9
+Parsing ecmascript source code failed
+  27 |                 ))}
+  28 |             </div>
+> 29 |         </div>
+     |         ^
+  30 |     );
+  31 |             {/*loops thru everything for houses.map*/}
+  32 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Expression expected
+[00:50:43.294] Browser ERROR   ./app/housemenu/page.tsx:26:22
+Parsing ecmascript source code failed
+  24 |                         name={house.name}
+  25 |                         imageURL={house.imageURL}
+> 26 |                     />
+     |                      ^
+  27 |                 ))}
+  28 |             </div>
+  29 |         </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:50:43.294] Browser ERROR   ./app/housemenu/page.tsx:27:19
+Parsing ecmascript source code failed
+  25 |                         imageURL={house.imageURL}
+  26 |                     />
+> 27 |                 ))}
+     |                   ^
+  28 |             </div>
+  29 |         </div>
+  30 |     );
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:50:43.294] Browser ERROR   ./app/housemenu/page.tsx:29:10
+Parsing ecmascript source code failed
+  27 |                 ))}
+  28 |             </div>
+> 29 |         </div>
+     |          ^^^^^
+  30 |     );
+  31 |             {/*loops thru everything for houses.map*/}
+  32 |             {/*if you put a /> at the end then you don't need to do </HouseCard> at the end - basically no children in between*/}
+
+Unterminated regexp literal
+[00:50:48.290] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:51:01.607] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:55:41.292] Browser ERROR   ./components/housecard.tsx:17:5
+Parsing ecmascript source code failed
+  15 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+  16 |         </>
+> 17 |     )
+     |     ^
+  18 | }
+  19 | // It will include the image at the top, then the name of the item.
+  20 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token `)`. Expected jsx identifier
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:55:46.749] Server  LOG      ✓ Compiled in 57ms
+[00:55:47.294] Browser ERROR   ./components/housecard.tsx:19:1
+Parsing ecmascript source code failed
+  17 |         </>
+  18 |     )
+> 19 | }
+     | ^
+  20 | // It will include the image at the top, then the name of the item.
+  21 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:55:49.293] Browser ERROR   ./components/housecard.tsx:19:1
+Parsing ecmascript source code failed
+  17 |         </>
+  18 |     )
+> 19 | }
+     | ^
+  20 | // It will include the image at the top, then the name of the item.
+  21 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:55:59.868] Server  LOG      ✓ Compiled in 22ms
+[00:56:00.293] Browser ERROR   ./components/housecard.tsx:20:1
+Parsing ecmascript source code failed
+  18 |         </>
+  19 |     )
+> 20 | }
+     | ^
+  21 | // It will include the image at the top, then the name of the item.
+  22 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:02.293] Browser ERROR   ./components/housecard.tsx:20:1
+Parsing ecmascript source code failed
+  18 |         </>
+  19 |     )
+> 20 | }
+     | ^
+  21 | // It will include the image at the top, then the name of the item.
+  22 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:05.292] Browser ERROR   ./components/housecard.tsx:20:1
+Parsing ecmascript source code failed
+  18 |         </>
+  19 |     )
+> 20 | }
+     | ^
+  21 | // It will include the image at the top, then the name of the item.
+  22 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:09.296] Browser ERROR   ./components/housecard.tsx:14:10
+Parsing ecmascript source code failed
+  12 |                 <Image
+  13 |         <>
+> 14 | 	        <img src={imageURL} alt="image"></img>
+     | 	        ^
+  15 |             <p>{name}</p> {/*<--- This is how you reference the variables inside the HTML section*/}
+  16 |             {/*include src within bracket*/}
+  17 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:15.292] Browser ERROR   ./components/housecard.tsx:20:5
+Parsing ecmascript source code failed
+  18 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+  19 |         </>
+> 20 |     )
+     |     ^
+  21 | }
+  22 | // It will include the image at the top, then the name of the item.
+  23 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:24.434] Server  LOG      ✓ Compiled in 14ms
+[00:56:25.292] Browser ERROR   ./components/housecard.tsx:26:1
+Parsing ecmascript source code failed
+  24 |         </>
+  25 |     )
+> 26 | }
+     | ^
+  27 | // It will include the image at the top, then the name of the item.
+  28 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:28.293] Browser ERROR   ./components/housecard.tsx:26:1
+Parsing ecmascript source code failed
+  24 |         </>
+  25 |     )
+> 26 | }
+     | ^
+  27 | // It will include the image at the top, then the name of the item.
+  28 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:31.292] Browser ERROR   ./components/housecard.tsx:26:1
+Parsing ecmascript source code failed
+  24 |         </>
+  25 |     )
+> 26 | }
+     | ^
+  27 | // It will include the image at the top, then the name of the item.
+  28 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:32.292] Browser ERROR   ./components/housecard.tsx:26:1
+Parsing ecmascript source code failed
+  24 |         </>
+  25 |     )
+> 26 | }
+     | ^
+  27 | // It will include the image at the top, then the name of the item.
+  28 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:37.293] Browser ERROR   ./components/housecard.tsx:26:1
+Parsing ecmascript source code failed
+  24 |         </>
+  25 |     )
+> 26 | }
+     | ^
+  27 | // It will include the image at the top, then the name of the item.
+  28 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:38.293] Browser ERROR   ./components/housecard.tsx:26:1
+Parsing ecmascript source code failed
+  24 |         </>
+  25 |     )
+> 26 | }
+     | ^
+  27 | // It will include the image at the top, then the name of the item.
+  28 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:42.296] Browser ERROR   ./components/housecard.tsx:26:1
+Parsing ecmascript source code failed
+  24 |         </>
+  25 |     )
+> 26 | }
+     | ^
+  27 | // It will include the image at the top, then the name of the item.
+  28 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:46.291] Browser ERROR   ./components/housecard.tsx:27:1
+Parsing ecmascript source code failed
+  25 |         </>
+  26 |     )
+> 27 | }
+     | ^
+  28 | // It will include the image at the top, then the name of the item.
+  29 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:48.292] Browser ERROR   ./components/housecard.tsx:28:1
+Parsing ecmascript source code failed
+  26 |         </>
+  27 |     )
+> 28 | }
+     | ^
+  29 | // It will include the image at the top, then the name of the item.
+  30 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:56:54.631] Server  LOG      ✓ Compiled in 18ms
+[00:56:55.292] Browser ERROR   ./components/housecard.tsx:32:5
+Parsing ecmascript source code failed
+  30 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+  31 |         </>
+> 32 |     )
+     |     ^
+  33 | }
+  34 | // It will include the image at the top, then the name of the item.
+  35 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:18.294] Browser ERROR   ./components/housecard.tsx:33:5
+Parsing ecmascript source code failed
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+  32 |         </>
+> 33 |     )
+     |     ^
+  34 | }
+  35 | // It will include the image at the top, then the name of the item.
+  36 | // make sure that the card is reasonably sized so that you can create a grid of these cards in the house page.
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:26.292] Browser ERROR   ./components/housecard.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             {/*include src within bracket*/}
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+> 32 |         </>
+     |         ^
+  33 |     )
+  34 | }
+  35 | // It will include the image at the top, then the name of the item.
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:26.292] Browser ERROR   ./components/housecard.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             {/*include src within bracket*/}
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+> 32 |         </>
+     |          ^^
+  33 |     )
+  34 | }
+  35 | // It will include the image at the top, then the name of the item.
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:29.292] Browser ERROR   ./components/housecard.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             {/*include src within bracket*/}
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+> 32 |         </>
+     |         ^
+  33 |     )
+  34 | }
+  35 | // It will include the image at the top, then the name of the item.
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:29.292] Browser ERROR   ./components/housecard.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             {/*include src within bracket*/}
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+> 32 |         </>
+     |          ^^
+  33 |     )
+  34 | }
+  35 | // It will include the image at the top, then the name of the item.
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:35.292] Browser ERROR   ./components/housecard.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             {/*include src within bracket*/}
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+> 32 |         </>
+     |         ^
+  33 |     )
+  34 | }
+  35 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:35.292] Browser ERROR   ./components/housecard.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             {/*include src within bracket*/}
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+> 32 |         </>
+     |          ^^
+  33 |     )
+  34 | }
+  35 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:38.295] Browser ERROR   ./components/housecard.tsx:32:9
+Parsing ecmascript source code failed
+  30 |             {/*include src within bracket*/}
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+> 32 |         </>
+     |         ^
+  33 |     )
+  34 | }
+  35 | */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:38.295] Browser ERROR   ./components/housecard.tsx:32:10
+Parsing ecmascript source code failed
+  30 |             {/*include src within bracket*/}
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+> 32 |         </>
+     |          ^^
+  33 |     )
+  34 | }
+  35 | */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:57:57.297] Browser ERROR   ./components/housecard.tsx:33:5
+Parsing ecmascript source code failed
+  31 |             {/*style it so its smaller - all the div/classname stuff - chatgpt styling in tailwindcss*/}
+  32 |        {/} </>
+> 33 |     )
+     |     ^
+  34 | }
+  35 | */}
+  36 | // It will include the image at the top, then the name of the item.
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/housecard.tsx
+    ./app/housemenu/page.tsx
+[00:58:02.292] Browser WARN    Image with src "/cabot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/adams.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/currier.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/dunster.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/eliot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/kirkland.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/lowell.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/mather.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/leverett.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/pfoho.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/quincy.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.292] Browser WARN    Image with src "/winthrop.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.209] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:40.347] Browser WARN    Image with src "/dunster.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:00:40.347] Browser WARN    Image with src "/adams.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/cabot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/currier.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/dunster.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/eliot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/kirkland.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/leverett.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/lowell.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/mather.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/pfoho.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/quincy.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:40.347] Browser WARN    Image with src "/winthrop.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:43.216] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:45.216] Browser WARN    Image with src "/adams.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/cabot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/currier.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/dunster.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/eliot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/winthrop.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/kirkland.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/mather.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/quincy.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/pfoho.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/lowell.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:45.216] Browser WARN    Image with src "/leverett.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:48.086] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:37.452] Browser WARN    Image with src "/currier.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/adams.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/eliot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/cabot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/dunster.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/kirkland.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/leverett.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/mather.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/quincy.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/winthrop.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/lowell.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:37.452] Browser WARN    Image with src "/pfoho.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:06:18.672] Server  LOG      ✓ Compiled in 33ms
+[01:06:19.293] Browser ERROR   ./app/page.tsx:36:5
+Parsing ecmascript source code failed
+  34 |             </Link>
+  35 |         </>
+> 36 |     )
+     |     ^
+  37 | }
+
+Expression expected
+[01:06:50.292] Browser ERROR   ./app/page.tsx:36:5
+Parsing ecmascript source code failed
+  34 |             </Link>
+  35 |         </>
+> 36 |     )
+     |     ^
+  37 | }
+
+Expression expected
+[01:06:54.292] Browser ERROR   ./app/page.tsx:30:2
+Parsing ecmascript source code failed
+  28 | }
+  29 |
+> 30 | {/*from before:}
+     |  ^
+  31 |         <>
+  32 |             <Link href="/housemenu"> 
+  33 |                 <button className="border rounded text-white">House Menus</button>
+
+Expected '}', got '<eof>'
+[01:06:54.292] Browser ERROR   ./app/page.tsx:37:2
+Parsing ecmascript source code failed
+  35 |         </>
+  36 |     )
+> 37 | }
+     |  ^
+
+Unterminated block comment
+[01:06:55.291] Browser ERROR   ./app/page.tsx:30:2
+Parsing ecmascript source code failed
+  28 | }
+  29 |
+> 30 | {/*from before:
+     |  ^
+  31 |         <>
+  32 |             <Link href="/housemenu"> 
+  33 |                 <button className="border rounded text-white">House Menus</button>
+
+Expected '}', got '<eof>'
+[01:06:55.291] Browser ERROR   ./app/page.tsx:37:2
+Parsing ecmascript source code failed
+  35 |         </>
+  36 |     )
+> 37 | }
+     |  ^
+
+Unterminated block comment
+[01:07:00.291] Browser ERROR   ./app/page.tsx:30:2
+Parsing ecmascript source code failed
+  28 | }
+  29 |
+> 30 | {/*from before:
+     |  ^
+  31 |         <>
+  32 |             <Link href="/housemenu"> 
+  33 |                 <button className="border rounded text-white">House Menus</button>
+
+Expected '}', got '<eof>'
+[01:07:00.291] Browser ERROR   ./app/page.tsx:39:1
+Parsing ecmascript source code failed
+  37 | }
+  38 | 
+> 39 | 
+     | ^
+
+Unterminated block comment
+[01:07:02.292] Browser ERROR   ./app/page.tsx:30:2
+Parsing ecmascript source code failed
+  28 | }
+  29 |
+> 30 | {/*from before:
+     |  ^
+  31 |         <>
+  32 |             <Link href="/housemenu"> 
+  33 |                 <button className="border rounded text-white">House Menus</button>
+
+Expected '}', got '<eof>'
+[01:07:51.394] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:56.320] Browser WARN    Image with src "/currier.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/adams.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/cabot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/eliot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/kirkland.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/dunster.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/lowell.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/leverett.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/mather.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/quincy.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/winthrop.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:56.320] Browser WARN    Image with src "/pfoho.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:56.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:59.640] Browser WARN    Image with src "/dunster.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.640] Browser WARN    Image with src "/cabot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.640] Browser WARN    Image with src "/adams.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.640] Browser WARN    Image with src "/currier.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.640] Browser WARN    Image with src "/eliot.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.640] Browser WARN    Image with src "/kirkland.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.640] Browser WARN    Image with src "/leverett.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.640] Browser WARN    Image with src "/mather.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.640] Browser WARN    Image with src "/lowell.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.640] Browser WARN    Image with src "/pfoho.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.641] Browser WARN    Image with src "/winthrop.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:59.641] Browser WARN    Image with src "/quincy.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
